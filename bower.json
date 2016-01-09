@@ -1,0 +1,30 @@
+{
+  "name": "plutonium-scene",
+  "version": "1.0.0",
+  "authors": [
+    "lordoftheflies <heglas11@gmail.com>"
+  ],
+  "description": "In-game scene component.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "plutonium",
+    "scene"
+  ],
+  "main": "plutonium-scene.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/lordoftheflies/plutonium-scene/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
