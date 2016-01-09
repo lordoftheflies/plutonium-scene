@@ -35,13 +35,7 @@ Example:
   </style>
 
   <template>
-    <h1>&lt;plutonium-scene&gt;</h1>
     <content></content>
-    <p class="author">
-      <img src="{{author.image}}">
-      Cheers,<br/>
-      <span class="name">{{author.name}}</span>
-    </p>
   </template>
 
 </dom-module>
@@ -51,6 +45,8 @@ Example:
   Polymer({
 
     is: 'plutonium-scene',
+
+    extends: 'canvas',
 
     properties: {
 
